@@ -1,0 +1,17 @@
+@use '../styles/variables' as *;
+.ContactIcons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    a > ion-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+        color: $gray;
+        transition: all .3s ease;
+
+        &:hover {
+            color: $white;
+        }
+    }
+}
