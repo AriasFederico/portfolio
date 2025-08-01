@@ -1,0 +1,9 @@
+@use '../styles/variables' as *;
+.Name {
+    h1 {
+        font-size: $title;
+    }
+    span {
+        font-size: 1rem;
+    }
+}

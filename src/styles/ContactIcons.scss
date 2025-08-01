@@ -2,13 +2,13 @@
 .ContactIcons {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: .8rem;
 
     a > ion-icon {
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 1.7rem;
+        height: 1.7rem;
         color: $gray;
-        transition: all .3s ease;
+        transition: all .2s ease;
 
         &:hover {
             color: $white;

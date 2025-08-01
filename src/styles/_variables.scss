@@ -1,9 +1,22 @@
 // colors
-$primary-color:#1A2431;
-$white:#ffff;
-$gray: #B1B1B1;
+$black: #333333;
+$gray: #dcd7c88a; // gris
+$white:#DCD7C8; //hueso
+$primary-color:#2D3438; // color opaco
+$primary-color-alpha:#3c474ea7; // color opaco
+
+$secondary-color:#A07C59; // crema
+$lunar-eclipse: #3f4e4f;
+$orange-hover:#A07C59; // mismo crema
 
 // fonts
-$title: 2rem;
+$title: 3rem;
+$subtitle:1.7rem;
 $small: 0.75rem;
 $medium: 0.875rem;
+
+// radius
+$radius: 8px
+
+// verde 2D3438 . claro 3F4E4E
+// leche DCD7C8 . crema A07C59

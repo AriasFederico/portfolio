@@ -1,0 +1,31 @@
+@use '../styles/mixins' as *;
+.InfoHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+        @include desktop(){
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            grid-area: info;
+        }
+        
+    // border: 1px solid red;
+
+    p {
+        line-height: 1.7;
+    }
+
+    &-aboutme {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    &-projects {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+        
+}

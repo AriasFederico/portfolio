@@ -1,0 +1,22 @@
+@use './variables' as *;
+
+.Skills {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    ol  {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .5rem;
+        user-select: none;
+        max-width: 370px;
+    }
+
+    li  {
+        background-color: $lunar-eclipse;
+        padding: .5rem 1rem;
+        border-radius: 7px;
+        color: $white;
+    }
+}
