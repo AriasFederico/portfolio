@@ -23,10 +23,10 @@ export const InfoHeader = () => {
 			</div>
 
 			<div className='InfoHeader-projects'>
-				{projects.map(({ id, image, title, description, tags, href }) => (
+				{projects.map(({ image, title, description, tags, href }) => (
 					// se que project recibe estos props asique lo desestructure y los aplique al componente con los siguientes props
 					<ProjectCard
-						key={id}
+						key={''}
 						image={image}
 						title={title}
 						description={description}
